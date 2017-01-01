@@ -1,0 +1,23 @@
+/* 
+bootstrap tutorial  with sass
+ */
+ /* BASE - Base styles, variables, mixins */
+ @import 
+ "base/mixins",
+ "base/normalize",
+ "base/variable";
+
+/* LAYOUT- header, footer, navigation */
+@import
+"layout/footer",
+"layout/header",
+"layout/navigation";
+/* MODULES - individuals site components; blocks, buttons, components , sections, typography */
+
+@import
+"modules/typography",
+"modules/blocks",
+"modules/buttons",
+"modules/components",
+"modules/sections";
+
